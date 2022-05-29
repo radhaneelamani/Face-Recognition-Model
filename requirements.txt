@@ -19,7 +19,7 @@ itsdangerous==2.1.2
 numpy==1.22.4
 opencv-python==4.5.5.64
 pip==22.0.4
-pypiwin32==223
+pypiwin32==223; platform_system == "Windows"
 pyttsx3==2.90
 pywin32==304; platform_system == "Windows"
 requests==2.27.1
